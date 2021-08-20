@@ -520,3 +520,7 @@ class Gradient {
 */
 var gradient = new Gradient();
     gradient.initGradient("#gradient-canvas");
+
+var gradientStarter = Math.floor(Math.random() * 600) + 1
+gradient.amp = gradientStarter;
+
